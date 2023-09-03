@@ -60,7 +60,7 @@ const ContentCard = () => {
             </h1>
           </div>
           <div className="w-[279px] h-[7px] rounded-lg mb-4 bg-[#1E1C3A]">
-            <div className="w-16 h-[7px] rounded-lg bg-[#E328AF]"></div>
+            <div className="w-[107px] h-[7px] rounded-lg bg-[#E328AF]"></div>
           </div>
           <div className="flex justify-between items-center">
             <Image src={people} alt="people" />

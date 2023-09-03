@@ -12,6 +12,8 @@ import shop from "../../../img/online-shopping 1.png";
 import Invoices from "../../../img/invoice 1.png";
 import settings from "../../../img/setting 1.png";
 import mask from "../../../img/Mask Group.png";
+import arrow from "../../../img/ic_chevron.png";
+import arrow1 from "../../../img/ic_chevron (1).png";
 import { IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -37,7 +39,10 @@ const Sidebar = ({ visible }) => {
           </IconButton>
         </div>
       )}
-      <h1 style={{ color: "rgba(199, 199, 199, 1)" }} className="ml-10 mt-6 md:mt-0 mb-6 md:mb-9">
+      <h1
+        style={{ color: "rgba(199, 199, 199, 1)" }}
+        className="ml-10 mt-6 md:mt-0 mb-6 md:mb-9"
+      >
         Main Menu
       </h1>
       <div className="text-[#7879F1] flex flex-col justify-center ml-10 gap-6 mb-16">
@@ -45,37 +50,35 @@ const Sidebar = ({ visible }) => {
           <Image src={dash} width={28} height={28} alt="default" />
           <span>Dashboard</span>
         </h2>
-        <h2 className="flex gap-4">        
+        <h2 className="flex gap-20 items-center">
+          <div className="flex gap-4">
           <Image src={email} width={28} height={28} alt="default" />{" "}
           <span>Email</span>
+          </div>
         </h2>
         <h2 className="flex gap-4">
-      
           <Image src={chat} width={28} height={28} alt="default" />{" "}
           <span>Chat</span>
         </h2>
-        <h2 className="flex gap-4">
-    
-          <Image src={Kanban} width={28} height={28} alt="default" />{" "}
+        <h2 className="flex gap-[100px] items-center">
+          <div className="flex gap-4">
+          <Image src={email} width={28} height={28} alt="default" />{" "}
           <span>Kanban</span>
+          </div>
         </h2>
         <h2 className="flex gap-4">
-        
           <Image src={Contact} width={28} height={28} alt="default" />{" "}
           <span>Contact</span>
         </h2>
         <h2 className="flex gap-4">
-     
           <Image src={Calendar} width={28} height={28} alt="default" />{" "}
           <span>Calender</span>
         </h2>
         <h2 className="flex gap-4">
-      
           <Image src={courses} width={28} height={28} alt="default" />{" "}
           <span>Courses</span>
         </h2>
         <h2 className="flex gap-4">
-
           <Image src={shop} width={28} height={28} alt="default" />{" "}
           <span>Shop</span>
         </h2>
