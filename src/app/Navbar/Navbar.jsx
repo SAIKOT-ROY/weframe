@@ -1,7 +1,6 @@
 "use client";
 import { Divider, IconButton, InputBase, Paper } from "@mui/material";
 import React from "react";
-import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import Image from "next/image";
 import bell from "../../../img/bell 1.png";
@@ -11,20 +10,18 @@ import video from "../../../img/Video Lesson 2 2.png";
 import usa from "../../../img/united-states 1.png";
 import profile from "../../../img/profilePicture.png";
 import arrow from "../../../img/arrow.png";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center bg-[#15132B] px-10 py-4">
-      <div className="flex items-center gap-4 justify-center">
-        <h2 className="text-white md:block hidden">weframetech</h2>
-        <IconButton
-          className="text-[#7879F1]"
-          sx={{ p: "10px" }}
-          aria-label="menu"
-        >
-          <MenuIcon />
-        </IconButton>
-      </div>
+      <IconButton
+        className="text-[#7879F1] md:hidden"
+        sx={{ p: "10px" }}
+        aria-label="menu"
+      >
+        <MenuIcon />
+      </IconButton>
       <div>
         <Paper
           component="form"
@@ -61,15 +58,51 @@ const Navbar = () => {
         </h2>
       </div>
       <div className="flex justify-center items-center gap-10">
-        <Image className="hidden md:block" src={bell} alt="bellIcon" width={28} height={28} />
-        <Image className="hidden md:block" src={video} alt="bellIcon" width={28} height={28} />
-        <Image className="hidden md:block" src={checkbox} alt="bellIcon" width={28} height={28} />
-        <Image className="hidden md:block" src={office} alt="bellIcon" width={28} height={28} />
+        <Image
+          className="hidden md:block"
+          src={bell}
+          alt="bellIcon"
+          width={28}
+          height={28}
+        />
+        <Image
+          className="hidden md:block"
+          src={video}
+          alt="bellIcon"
+          width={28}
+          height={28}
+        />
+        <Image
+          className="hidden md:block"
+          src={checkbox}
+          alt="bellIcon"
+          width={28}
+          height={28}
+        />
+        <Image
+          className="hidden md:block"
+          src={office}
+          alt="bellIcon"
+          width={28}
+          height={28}
+        />
       </div>
       <div className="flex justify-center items-center gap-3 md:bg-[#211A75] rounded-full p-4">
-        <Image className="hidden md:block" src={usa} alt="usa" width={28} height={28} />
+        <Image
+          className="hidden md:block"
+          src={usa}
+          alt="usa"
+          width={28}
+          height={28}
+        />
         <h2 className="text-white hidden md:block">ENGLISH</h2>
-        <Image className="hidden md:block" src={arrow} alt="profile" width={15} height={8} />
+        <Image
+          className="hidden md:block"
+          src={arrow}
+          alt="profile"
+          width={15}
+          height={8}
+        />
       </div>
       <div className="text-white flex justify-center items-center gap-4">
         <Image src={profile} alt="profile" width={57} height={57} />
@@ -77,7 +110,13 @@ const Navbar = () => {
           <h2>Instructor Day</h2>
           <h2>Super Admin</h2>
         </div>
-        <Image className="hidden md:block" src={arrow} alt="profile" width={15} height={8} />
+        <Image
+          className="hidden md:block"
+          src={arrow}
+          alt="profile"
+          width={15}
+          height={8}
+        />
       </div>
     </div>
   );

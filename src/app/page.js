@@ -1,11 +1,10 @@
-import Image from 'next/image'
-import Navbar from './Navbar/Navbar.jsx'
+import Main from "./Main/layout.js"
+
 
 export default function Home() {
   return (
     <main className="">
-      <Navbar />
-      <h1>This is my job task</h1>
+        <Main />
     </main>
   )
 }
