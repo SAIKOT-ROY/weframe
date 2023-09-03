@@ -3,7 +3,6 @@ import Sidebar from "../Sidebar/Sidebar.jsx";
 
 const layout = ({ children }) => {
 
-
   return (
     <div className="flex h-screen">
       <div
