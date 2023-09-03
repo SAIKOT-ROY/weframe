@@ -19,7 +19,7 @@ const layout = ({ children }) => {
         <div>
           <Navbar />
         </div>
-        <main className="p-4">{children}</main>
+        <main className="p-4 bg-[#0D0B21] min-h-screen">{children}</main>
       </div>
     </div>
   );

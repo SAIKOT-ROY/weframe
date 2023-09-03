@@ -114,7 +114,7 @@ const Navbar = () => {
           />
         </div>
         <div className="text-white flex justify-center items-center gap-4">
-          <Image src={profile} alt="profile" width={57} height={57} />
+          <Image className="md:block hidden" src={profile} alt="profile" width={57} height={57} />
           <div className="md:block hidden">
             <h2>Instructor Day</h2>
             <h2>Super Admin</h2>
