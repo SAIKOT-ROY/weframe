@@ -10,7 +10,7 @@ import clock from "../../../../img/clock (1) 1.png";
 
 const ContentCard = () => {
   return (
-    <div className="grid justify-center md:grid-cols-4 p-6 md:items-start">
+    <div className="grid text-white justify-center md:grid-cols-4 p-6 md:items-start">
       <div>
         <div className="text-white">
         <h2 className="flex justify-center items-center gap-28">

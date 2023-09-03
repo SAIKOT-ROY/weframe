@@ -8,7 +8,7 @@ import icon from "../../../../img/vertIcon.png";
 
 const Progress = () => {
   return (
-    <div className="bg-[#15132B] shadow-lg p-7 flex md:flex-row flex-col md:justify-between md:items-center rounded-xl border border-[#15132B]">
+    <div className="bg-[#15132B] text-white shadow-lg p-7 flex md:flex-row flex-col md:justify-between md:items-center rounded-xl border border-[#15132B]">
       {/* Part one of banner */}
       <div className="flex md:flex-row flex-col justify-center items-start gap-4">
         <div>
