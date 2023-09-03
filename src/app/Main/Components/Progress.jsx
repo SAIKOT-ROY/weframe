@@ -52,19 +52,21 @@ const Progress = () => {
             <h1>Centered Martial Arts</h1>
             <h1 className="text-[#A5A5A5] text-sm">Sunnyvale, Ca</h1>
           </div>
+          <div className="flex gap-4 items-center">
           <div className="w-16 h-16 rounded-2xl bg-white flex justify-center items-center">
             <Image width={44} height={44} src={logo} alt="logo" />
           </div>
           <div>
             <Image src={icon} width={24} height={24} alt="icon" />
           </div>
+          </div>
         </div>
         <div className="flex justify-center items-center gap-8">
           <div>
             <h1>Total Progress 60%</h1>
           </div>
-          <div className="bg-[#1E1C3A] md:w-64 h-3 rounded-xl shadow-md">
-            <div className="bg-[#6418C3] rounded-lg md:w-[116px] h-3"></div>
+          <div className="bg-[#1E1C3A] w-14 md:w-64 h-3 rounded-xl shadow-md">
+            <div className="bg-[#6418C3] w-[60px] rounded-lg md:w-[116px] h-3"></div>
           </div>
         </div>
       </div>

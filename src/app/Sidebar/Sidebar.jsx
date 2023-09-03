@@ -23,7 +23,7 @@ const Sidebar = ({ visible }) => {
         fontSize: "16px",
         fontWeight: "bold",
       }}
-      className="md:w-[345px] w-1/2 min-h-screen flex flex-col"
+      className="md:w-[345px] w-1/2 min-h-screen flex flex-col absolute md:static z-10"
     >
       {!visible && (
         <div className="flex items-center gap-4 mt-6 mb-14 justify-center">
@@ -45,8 +45,7 @@ const Sidebar = ({ visible }) => {
           <Image src={dash} width={28} height={28} alt="default" />
           <span>Dashboard</span>
         </h2>
-        <h2 className="flex gap-4">
-         
+        <h2 className="flex gap-4">        
           <Image src={email} width={28} height={28} alt="default" />{" "}
           <span>Email</span>
         </h2>

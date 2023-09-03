@@ -4,7 +4,7 @@ import Sidebar from "../Sidebar/Sidebar.jsx";
 const layout = ({ children }) => {
 
   return (
-    <div className="flex h-screen">
+    <div className="flex min-h-screen">
       <div
         style={{
           backgroundColor: "#15132B",
@@ -19,7 +19,7 @@ const layout = ({ children }) => {
         <div>
           <Navbar />
         </div>
-        <main className="p-4 bg-[#0D0B21] min-h-screen">{children}</main>
+        <main className="p-4 bg-[#0D0B21] min-h-screen relative">{children}</main>
       </div>
     </div>
   );
